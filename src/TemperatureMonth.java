@@ -20,7 +20,7 @@ public class TemperatureMonth {
 
         Scanner sc = new Scanner(System.in);
         String inputNameOfMonth = sc.next().toLowerCase();
-        int daysInMonth = 0;
+        int daysInMonth= 0;
         boolean found = false;
         int sumAverage = 0;
         int Maxt = -1111111;
